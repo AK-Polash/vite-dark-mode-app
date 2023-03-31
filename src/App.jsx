@@ -8,6 +8,8 @@ import {
 import RootLayout from "./components/RootLayout";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Query from "./pages/Query";
 import ErrorRoute from "./components/ErrorRoute";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/query" element={<Query />} />
         <Route path="*" element={<ErrorRoute />} />
       </Route>
     )

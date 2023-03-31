@@ -1,11 +1,11 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import DarkMode from "./DarkMode";
+import Header from "./Header";
 
 const RootLayout = () => {
   return (
     <>
-      <DarkMode />
+      <Header />
       <Outlet />
     </>
   );

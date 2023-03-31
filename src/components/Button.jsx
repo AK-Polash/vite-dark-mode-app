@@ -7,7 +7,7 @@ const Button = (props) => {
       onClick={props.onClick}
       title={props.title}
     >
-      <props.content />
+      {props.icon ? <props.content /> : props.content}
     </button>
   );
 };

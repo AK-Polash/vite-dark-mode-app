@@ -20,7 +20,8 @@ const DarkMode = () => {
   return (
     <Button
       title={darkMode ? "light mode" : "dark mode"}
-      className="absolute right-0 top-0 flex h-[55px] w-[55px] items-center justify-center rounded-full bg-transparent text-4xl text-black dark:text-white"
+      className="flex h-[55px] w-[55px] items-center justify-center rounded-full bg-transparent text-3xl text-[#333] dark:text-white"
+      icon={true}
       content={darkMode ? MdOutlineLightMode : MdOutlineDarkMode}
       onClick={() => setDarkMode(!darkMode)}
     />
