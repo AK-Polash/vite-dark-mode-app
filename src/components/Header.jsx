@@ -1,9 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Container from "./Container";
 import Lists from "./Lists";
 import List from "./List";
-import Button from "./Button";
-import { NavLink } from "react-router-dom";
 import DarkMode from "./DarkMode";
 
 const Header = () => {
